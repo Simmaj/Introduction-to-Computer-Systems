@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     namelist
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _my_malloc, symObjAddr: 0x0, symBinAddr: 0x100003CBC, symSize: 0x3C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _my_heap_cur, symObjAddr: 0xA94, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _num_names, symObjAddr: 0xA98, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _my_heap, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xA0, offset: 0xA0, size: 0x8, addend: 0x0, symName: _names, symBinAddr: 0x100009008, symSize: 0x0 }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: _my_malloc, symObjAddr: 0x0, symBinAddr: 0x100003CBC, symSize: 0x3C }
+  - { offsetInCU: 0xF0, offset: 0xF0, size: 0x8, addend: 0x0, symName: _add_name, symObjAddr: 0x3C, symBinAddr: 0x100003CF8, symSize: 0x6C }
+  - { offsetInCU: 0x114, offset: 0x114, size: 0x8, addend: 0x0, symName: _print_names, symObjAddr: 0xA8, symBinAddr: 0x100003D64, symSize: 0x84 }
+  - { offsetInCU: 0x146, offset: 0x146, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x12C, symBinAddr: 0x100003DE8, symSize: 0xA4 }
+...
